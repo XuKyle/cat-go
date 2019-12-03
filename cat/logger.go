@@ -35,7 +35,7 @@ func openLoggerFile(time time.Time) (*os.File, error) {
 
 func getWriterByTime(time time.Time) io.Writer {
 	if file, err := openLoggerFile(time); err != nil {
-		log.Fatalf("Cannot open log file: %v, logs will be redirected to stdout", err)
+		log.Printf("Cannot open log file: %v, logs will be redirected to stdout", err)
 		return os.Stdout
 	} else {
 		log.Printf("Log has been redirected to the file: %s", file.Name())
