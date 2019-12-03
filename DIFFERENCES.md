@@ -23,7 +23,7 @@ It is equal to the following codes in `gocat.v2`
 
 ```go
 import (
-	"github.com/Meituan-Dianping/cat-go/cat"
+	"github.com/rgshare/cat-go/cat"
 )
 
 cat.LogEvent("foo", "bar")

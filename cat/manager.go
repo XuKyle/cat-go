@@ -5,7 +5,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Meituan-Dianping/cat-go/message"
+	"github.com/rgshare/cat-go/message"
 )
 
 type catMessageManager struct {

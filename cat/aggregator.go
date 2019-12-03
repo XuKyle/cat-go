@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"strconv"
 
-	"github.com/Meituan-Dianping/cat-go/message"
+	"github.com/rgshare/cat-go/message"
 )
 
 const batchFlag = '@'

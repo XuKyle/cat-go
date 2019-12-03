@@ -1,4 +1,4 @@
-module github.com/Meituan-Dianping/cat-go
+module github.com/rgshare/cat-go
 
 go 1.13
 
